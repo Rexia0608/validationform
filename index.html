@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.13.2/themes/smoothness/jquery-ui.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js"></script>
+        <script src="script.js">
+        </script>
+    </head>
+    <body>
+        <div class="container">
+            <h1>Scheduling form for Vaccination</h1>
+            <form action="">
+                <label> First Name:
+                    <input class="fill-in" id="first-name" type="text" required>
+                    <p></p>
+                </label>
+
+                <label> Last Name:
+                    <input class="fill-in" id="last-name" type="text" required>
+                </label>
+
+                <label> Email:
+                    <input class="fill-in" id="email" type="email" required>
+                </label>
+
+                <label> Age:
+                    <select class="fill-in" id="Age" required>
+                        <option value="9">3 - 9 years old</option>
+                        <option value="17">9 - 17 years old</option>
+                        <option value="28">17 - 28</option>
+                        <option value="30+">30 above</option>
+                      </select>
+                </label>
+
+                <label> Preffered Date:
+                    <input type="text" id="datepicker" required>
+                </label>
+                <button class="btn">Reserve</button>
+            </form>
+        </div>
+    </body>
+</html>
